@@ -15,6 +15,8 @@ These notes are based on the semantic model files found in the supplied PBIP pro
 
 ## Relationships
 
+![Data model diagram](images/data-model.png)
+
 The fact table is related to the dimensions through shipping mode, product, customer, order status, and geography keys. The active date relationship is `Fact_OrderItems.OrderDate` to `Dim_Date.Date`; the `ShipDate` relationship to `Dim_Date.Date` is inactive.
 
 ```mermaid

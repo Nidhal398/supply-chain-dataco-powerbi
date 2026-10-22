@@ -9,7 +9,7 @@ An interactive, French-language Power BI portfolio dashboard for exploring DataC
 
 ## Dashboard preview
 
-<!-- TODO: à compléter — add docs/images/01-vue-ensemble.png captured from the supplied PBIX. -->
+![Overview dashboard](docs/images/01-vue-ensemble.png)
 
 ## Business context and objectives
 
@@ -23,35 +23,35 @@ The report examines the DataCo Smart Supply Chain order history from 2015 throug
 
 ## Dashboard pages
 
-The supplied report contains five pages. Screenshots are not present in the project files; the image slots below are TODOs rather than fabricated previews. The metrics are values shown in the dashboard and have not been independently recalculated here.
+The supplied report contains five pages. The metrics are values shown in the dashboard and have not been independently recalculated here.
 
 ### 1. Vue d'ensemble
 
-<!-- TODO: à compléter — docs/images/01-vue-ensemble.png -->
+![Vue d'ensemble dashboard page](docs/images/01-vue-ensemble.png)
 
 Dashboard-reported headline values: Net Sales **$33M**, Total Profit **$4M**, margin **12.0%**, and approximately **66K orders**.
 
 ### 2. Produits
 
-<!-- TODO: à compléter — docs/images/02-produits.png -->
+![Produits dashboard page](docs/images/02-produits.png)
 
 Explore product and category sales, profit, and discount patterns. Dashboard-reported average discount ratio: **10.1%**.
 
 ### 3. Clients
 
-<!-- TODO: à compléter — docs/images/03-clients.png -->
+![Clients dashboard page](docs/images/03-clients.png)
 
 Explore customer and segment performance. The report displays approximately **21K customers**.
 
 ### 4. Logistique
 
-<!-- TODO: à compléter — docs/images/04-logistique.png -->
+![Logistique dashboard page](docs/images/04-logistique.png)
 
 Explore order status, shipping mode, and delivery performance. The report displays a late delivery rate of **57.3%**; First Class is reported as **100% late** in the supplied dashboard.
 
 ### 5. Géographie
 
-<!-- TODO: à compléter — docs/images/05-geographie.png -->
+![Géographie dashboard page](docs/images/05-geographie.png)
 
 Explore markets and country-level sales and profit. The report displays **164 countries** and **10 countries at a loss**; the United States is reported as the leading country.
 
@@ -69,6 +69,8 @@ Interpret these values in the report's filter context. The KPI definitions and e
 ## Data model and architecture
 
 The PBIX contains a Power Query source query named `Stg_DataCo` and a semantic model with a central `Fact_OrderItems` table plus date, customer, geography, order status, product, and shipping mode dimensions. The source query references a local CSV path; see [the data notes](data/README.md) and [model notes](docs/data-model.md) before refreshing. A diagram and relationship details are documented only to the extent visible in the supplied model.
+
+![Data model diagram](docs/images/data-model.png)
 
 ## Technology
 
@@ -97,7 +99,6 @@ supply-chain-dataco-powerbi/
 │   ├── data-model.md
 │   ├── kpi-dictionary.md
 │   └── images/
-└── sql/ or etl/ (not present in supplied project)
 ```
 
 ## Open and reproduce
@@ -111,11 +112,10 @@ The PBIX is provided as the report artifact. No raw order-level dataset is commi
 
 ## Limitations and possible improvements
 
-- Add page screenshots from Power BI Desktop so readers can inspect the report without opening the PBIX.
+- Add the author's LinkedIn profile.
 - Verify the license of the Kaggle copy and record the exact Kaggle attribution.
 - Replace the local source path with a configurable parameter before distributing a refreshable PBIP project.
 - Validate the reported insights against a reproducible refresh and document the applicable filter context.
-- Add the author's LinkedIn profile.
 
 ## Author
 
