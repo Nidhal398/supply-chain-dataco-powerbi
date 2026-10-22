@@ -112,7 +112,6 @@ The PBIX is provided as the report artifact. No raw order-level dataset is commi
 
 ## Limitations and possible improvements
 
-- Add the author's LinkedIn profile.
 - Verify the license of the Kaggle copy and record the exact Kaggle attribution.
 - Replace the local source path with a configurable parameter before distributing a refreshable PBIP project.
 - Validate the reported insights against a reproducible refresh and document the applicable filter context.
@@ -122,8 +121,8 @@ The PBIX is provided as the report artifact. No raw order-level dataset is commi
 **Nidhal Ghanmi** — Engineering student in ERP and Business Intelligence at ESPRIT, Tunisia.
 
 - GitHub: [Nidhal398](https://github.com/Nidhal398)
-- Email: [nidhal.ghanmi@esprit.tn](mailto:nidhal.ghanmi@esprit.tn)
-- LinkedIn: <!-- TODO: à compléter — add profile URL -->
+- Email: [ghanmi.nidhal@esprit.tn](mailto:ghanmi.nidhal@esprit.tn)
+- LinkedIn: [nidhal-ghanmi](https://www.linkedin.com/in/nidhal-ghanmi)
 
 ## License and data source
 
