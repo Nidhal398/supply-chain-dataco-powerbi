@@ -1,0 +1,20 @@
+# Power BI local state and backups
+.pbi/
+**/.pbi/
+*.pbix.bak
+*.abf
+
+# Local data and secrets
+.env
+.env.*
+data/raw/
+
+# OS, caches and temporary files
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.cache/
+*.log
+*.tmp
+~$*
